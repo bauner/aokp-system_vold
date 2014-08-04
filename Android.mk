@@ -20,8 +20,6 @@ ifeq ($(BOARD_VOLD_CRYPTFS_MIGRATE), true)
 common_cflags += -DCRYPTFS_MIGRATE
 endif
 
-common_cflags += -Werror
-
 common_src_files := \
 	VolumeManager.cpp \
 	CommandListener.cpp \
